@@ -9,7 +9,7 @@ data=json.load(open('cred.json'))   #TODO: fill the missing values within cred.j
 bootstrap_servers=data['bootstrap_servers'];
 sasl_plain_username=data['Api key'];
 sasl_plain_password=data['Api secret'];
-topicName=''                        #TODO: fill by topic name
+topicName='Sensors';                      #TODO: fill by topic name
 
 #device distribution profile used to generate random data
 DEVICE_PROFILES = {
